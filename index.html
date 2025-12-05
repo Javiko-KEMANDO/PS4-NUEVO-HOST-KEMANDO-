@@ -27,6 +27,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
             #console {
                 font-family: 'logging';
             }
+
+
+html, body {
+  height: 100%;              /* ocupa toda la ventana */
+  margin: 0;                 /* elimina márgenes por defecto */
+  padding: 0;                /* elimina relleno por defecto */
+}
+
+body {
+  background-image: url("fondo.jpg"); /* tu foto */
+  background-repeat: no-repeat;        /* no repetir */
+  background-position: center;         /* centrada */
+  background-size: 100% 100%;          /* estira en ancho y alto */
+}
         </style>
         <script>
         if (window.applicationCache.status=='0')
@@ -35,7 +49,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         }
         </script>
     </head>
-    <body>
+    <body >
         PSFree: A PS4/PS5 Exploit Chain
         <br>
         <br>
